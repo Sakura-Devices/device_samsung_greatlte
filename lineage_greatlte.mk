@@ -25,6 +25,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+TARGET_BOOT_ANIMATION_RES := 1440
+SAKURA_OFFICIAL=true
+
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := greatlte
 PRODUCT_NAME := lineage_greatlte
